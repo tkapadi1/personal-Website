@@ -1,0 +1,149 @@
+/*
+body{
+    background-color: blue;
+}
+
+h1{
+    color: #66F6F6;
+}
+
+h3{
+    color: #66F6F6;
+}
+
+thead{
+    color: darksalmon;
+}
+
+p{
+    margin-top: 0;
+    margin-left: 310px;
+    padding-top: 25px;
+    font-size: 1rem;
+    width: 60rem;
+    padding-bottom: 50px;
+}
+
+*/
+
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+
+h1{
+    color: #2eb872;
+    font-size: 4.625rem;
+    margin-top: 0;
+    font-family: 'Sacramento', cursive;
+}
+
+h2{
+    color: #2eb872;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 25px;
+}
+
+h3{
+    color: #16a596;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 25px;
+}
+
+hr{
+    margin-top: 50px;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #928a97;
+    border-width: 10px;
+    width: 5%;
+}
+
+.word{
+    text-decoration: underline;
+}
+
+.pro{
+    height: 200px;
+    width: 200px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.down-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+
+.programmer{
+    font-size: 2rem;
+}
+
+.gif{
+    height: 200px;
+    width: 200px;
+}
+
+.cricket{
+    height:  150px;
+    width: 150px;
+}
+
+.Top-container{
+    background-color: #f2fcfc;
+    color: #7d5a5a;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container{
+    padding-top: 100px;
+}
+
+.bottom-container{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.contact-me{
+    padding-top: 25px;
+}
+
+.mountain{
+    height: 24rem;
+    width: 45rem;
+}
+
+.skill-row{
+    padding-top: 50px;
+}
+
+.btn{
+    display: inline-block;
+    background-color: #2eb872;
+    cursor: pointer;
+}
+
+.mail{
+    padding-top: 5%;
+    width: 16px;
+    height: 16px;
+}
+
+.para{
+    font-family: 'Sacramento', cursive;
+    font-size: 2rem;
+    color: #1a1c20;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    height: 2rem;
+}
