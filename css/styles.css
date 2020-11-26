@@ -66,8 +66,8 @@ hr{
 }
 
 .pro{
-    height: 200px;
-    width: 200px;
+    height: 12.75rem;
+    width: 18.75rem;
 }
 
 .top-cloud{
@@ -109,12 +109,7 @@ hr{
 }
 
 .bottom-container{
-    padding-top: 25px;
     padding-bottom: 25px;
-}
-
-.contact-me{
-    padding-top: 25px;
 }
 
 .mountain{
@@ -139,7 +134,7 @@ hr{
 }
 
 .para{
-    font-family: 'Sacramento', cursive;
+    font-family: 'Dancing Script', cursive;
     font-size: 2rem;
     color: #1a1c20;
     display: inline-block;
