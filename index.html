@@ -1,133 +1,743 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Tejas's Personal Site</title>
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="icon" href="favicon/favicon.ico" />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="favicon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="favicon/site.webmanifest" />
+<!--[if IE 8]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&family=Dancing+Script&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+<head>
+	<!--- basic page needs
+   ================================================== -->
+	<meta charset="utf-8" />
+	<title>Tejas Portfolio</title>
+	<meta name="description" content="" />
+	<meta name="author" content="" />
 
-  <body>
-    <div class="Top-container">
-      <img
-        class="top-cloud"
-        src="images/CSS - My Site Images/cloud.png"
-        alt="cloud-image"
-      />
-      <h1>I'm Tejas.</h1>
-      <p class="programmer">a <span class="word">pro</span>grammer.</p>
-      <img
-        class="down-cloud"
-        src="images/CSS - My Site Images/cloud.png"
-        alt="cloud-image"
-      />
-      <img
-        class="mountain"
-        src="images/CSS - My Site Images/mountain.png"
-        alt="mountain-image"
-      />
-    </div>
+	<!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
-    <div class="middle-container">
-      <div class="profile">
-        <img class="pro" src="images/hello.gif" alt="my-profile-picture" />
-        <h2>Hello.</h2>
-        <div class="para">
-            <p>
-              I am a Web-Designer/Developer based in New-york,
-              United States. I have passion for web design and love to
-              create for Web and Mobile devices.
-            </p>
+	<!-- script
+	================================================== -->
+	<script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
 
-        </div>
-      </div>
-      <br>
-      <br>
-      <hr />
+	<!-- CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/base.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/vendor.css" />
 
-      <div class="skills">
-          <br>
-          <br>
-        <h2>What I can Do.</h2>
-        <div class="skill-row">
-          <img
-            class="gif"
-            src="https://media.giphy.com/media/HEPwfdu6T6svpPE1eN/giphy.gif"
-            alt="Web-Developer-icon"
-          />
-          <h3>Design what you want.</h3>
-          <div class="para">
-              <p>
-                I like to keep it simple. My goals are to focus on 
-                typography, content and conveying the message that 
-                you want to send.
-              </p>
-          </div>
-        </div>
-        <div class="skill-row">
-          <img class="cricket" src="images/programing.png" alt="sport-icon" />
-          <h3>Develop what you need.</h3>
-          <div class="para">
-              <p>
-                I'm a developer, so I know how to create the 
-                backened of the website to work according to 
-                your need using latest technologies available.
-              </p>
-          </div>
-        </div>
-    </div>
-    <br>
-    <br>
-    <hr>
-      <div class="contact-me">
-          <br>
-        <h2>I can help.</h2>
-        <h3>I am currently available for free lance work.</h3>
-        <div class="para">
-            <p>
-              If you a project that you want to get started,think 
-              you need my help or just fancy saying Hey, then 
-              get in touch.
-            </p>
-        </div>
-        <br>
-        <br>
-        <br>
-        <a class="btn" href="mailto:tejaskapadia1@email.com"><button class="btn" >
-            <img class="mail" src="images/mail.png" alt="mail-image"/> MESSAGE ME</button></a>
-      </div>
-    </div>
+	<!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/x-icon" href="favicon.ico" />
+</head>
 
-    <div class="bottom-container">
-        <br>
-        <br>
-        <a class="footer-link" href="https://github.com/">Github</a>
-        <a class="footer-link" href="https://twitter.com/">Twitter</a>
-        <a class="footer-link" href="https://www.linkedin.com/">hire me.</a>
-      <p class="copy">© 2020 Tejas Kapadia.</p>
-    </div>
-  </body>
+<body id="page-top">
+	<!-- header 
+   ================================================== -->
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top fixNav" id="mainNav">
+		<div class="container">
+			<a class="navbar-brand js-scroll-trigger" href="#page-top">
+				<span class="d-none d-lg-block">
+					<a href="index.html">
+						<img src="logox32.svg" alt="logo" />
+					</a>
+				</span>
+			</a>
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+				data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+				aria-label="Toggle navigation">
+				Menu
+				<i class="fas fa-bars ml-1"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav text-uppercase ml-auto">
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#page-top">HOME</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#about">ABOUT</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#resume">EXPERIENCE</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#education">EDUCATION</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#portfolio">PORTFOLIO</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#services">SERVICES</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#contact">CONTACT</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- intro section
+   ================================================== -->
+	<section id="intro">
+		<div class="intro-overlay"></div>
+
+		<div class="intro-content">
+			<div class="row" id="trybox">
+				<div class="col-twelve">
+					<h5>Hello World!</h5>
+					<h1>I'm Tejas Kapadia</h1>
+
+					<p class="intro-position">
+						<span>Full Stack Developer</span>
+						<span>UI/UX Designer</span>
+					</p>
+
+					<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+				</div>
+			</div>
+		</div>
+		<!-- /intro-content -->
+
+		<ul class="intro-social">
+			<li>
+				<a class="social-icon" href="https://www.linkedin.com/in/tkapadi1"><i
+						class="fab fa-linkedin-in"></i></a>
+			</li>
+			<li>
+				<a class="social-icon" href="https://github.com/tkapadi1"><i class="fab fa-github"></i></a>
+			</li>
+			<li>
+				<a class="social-icon" href="https://www.instagram.com/kapadia_tejas/"><i
+						class="fab fa-instagram"></i></a>
+			</li>
+			<li>
+				<a class="social-icon" href="https://www.facebook.com/T.S.Soneji/"><i class="fab fa-facebook-f"></i></a>
+			</li>
+		</ul>
+		<!-- /intro-social -->
+	</section>
+	<!-- /intro -->
+
+	<!-- about section
+   ================================================== -->
+	<section id="about">
+		<div class="row section-intro">
+			<div class="col-twelve">
+				<h5>About</h5>
+				<br>
+				<h1>Let me introduce myself</h1>
+
+				<div class="intro-info">
+					<img src="images/profile.png" alt="Profile Picture" />
+
+					<p class="lead">
+						I am Tejas Kapadia, a Software Engineer based in North Bergen, New Jersey
+						I am a Software and Web developer. I have a penchant for challenging roles, agile development in order to provide solution that is robust and scalable, along with providing technical documentation of solution
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- /section-intro -->
+
+		<div class="aboutBox" id="aboutBox">
+			<div class="row about-content">
+				<div class="col-six tab-full">
+					<h3>Profile</h3>
+					<p>
+						A recent graduate (December 2020) in Computer science from State University of New York - Binghamton with prior 2 years of professional work experience in a Health Organization as Junior Web Developer.
+					</p>
+
+					<ul class="info-list">
+						<li>
+							<strong>Fullname:</strong>
+							<span>Tejas Samir Kapadia</span>
+						</li>
+						<li>
+							<strong>Birth Date:</strong>
+							<span>January 15, 1996</span>
+						</li>
+						<li>
+							<strong>Job:</strong>
+							<span>Freelancing: Web Developer, Web Security</span>
+						</li>
+						<li>
+							<strong>Website:</strong>
+							<span>www.tejaskapadia.co.io</span>
+						</li>
+						<li>
+							<strong>Email:</strong>
+							<span>tkapadi1@binghamton.edu</span>
+						</li>
+					</ul>
+					<!-- /info-list -->
+				</div>
+
+				<div class="col-six tab-full">
+					<h3>Skills</h3>
+					<p>
+						I have hands on knowledge in Java, C#, Python and Web technologies like Javascript, NodeJs and REST/SOAP API services through my professional and college experiences
+					</p>
+
+					<ul class="skill-bars">
+						<li>
+							<div class="progress percent90"><span>90%</span></div>
+							<strong>HTML5</strong>
+						</li>
+						<li>
+							<div class="progress percent85"><span>85%</span></div>
+							<strong>CSS3</strong>
+						</li>
+						<li>
+							<div class="progress percent65"><span>65%</span></div>
+							<strong>JQuery</strong>
+						</li>
+						<li>
+							<div class="progress percent75"><span>75%</span></div>
+							<strong>MongoDB</strong>
+						</li>
+						<li>
+							<div class="progress percent85"><span>85%</span></div>
+							<strong>NodeJs</strong>
+						</li>
+					</ul>
+					<!-- /skill-bars -->
+				</div>
+			</div>
+		</div>
+
+		<div class="row button-section">
+			<div class="col-twelve">
+				<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Contact Me</a>
+				<a href="https://drive.google.com/file/d/1SeBiCzid3ZXFRKL7iimfr_1O781pk2KN/view?usp=sharing"
+					title="Download CV" class="button button-primary">Download CV</a>
+			</div>
+		</div>
+	</section>
+	<!-- /process-->
+
+	<!-- resume Section
+   ================================================== -->
+	<section id="resume" class="grey-section">
+		<div class="row section-intro">
+			<div class="col-twelve">
+				<h1>More About Me...!</h1>
+			</div>
+		</div>
+		<!-- /section-intro-->
+
+		<div class="row resume-timeline">
+			<div class="col-twelve resume-header">
+				<h2>Work Experience</h2>
+			</div>
+			<!-- /resume-header -->
+
+			<div class="col-twelve">
+				<div class="timeline-wrap">
+					<div class="timeline-block">
+						<div class="timeline-ico">
+							<i class="fa fa-graduation-cap"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>junior Web Developer</h3>
+							<p>Aug 2019 - May 2020</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>Global Health Impact</h4>
+							<p>
+								<ul>
+									<li>
+										Part of the Global Health Impact Forecasting Tool development team
+										Working with APIs for Dynamic data entry through excel sheets
+									</li>
+									<li>
+										Maintain existing database and updating its configuration to stabilize input
+										entries to work with MongoDB database
+									</li>
+									<li>
+										Developed user responsive interfaces and dynamic anomalies with modern
+										JavaScript frameworks, Node, HTML5, and CSS3
+									</li>
+								</ul>
+							</p>
+						</div>
+					</div>
+					<!-- /timeline-block -->
+
+					<div class="timeline-block">
+						<div class="timeline-ico">
+							<i class="fa fa-graduation-cap"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>System Trainee</h3>
+							<p>Jan 2017 - Jan 2018</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>Revert Technologies and Finland Labs</h4>
+							<p>
+								<ul>
+									<li>
+										Used Arduino IDE as the default framework for embedded micro-controllers
+									</li>
+									<li>
+										Resolved, strategize with developers for critical run-time assessment errors
+									</li>
+									<li>
+										Debug application critical support to 2 clients
+									</li>
+								</ul>
+							</p>
+						</div>
+					</div>
+					<!-- /timeline-block -->
+
+					<div class="timeline-block">
+						<div class="timeline-ico">
+							<i class="fa fa-graduation-cap"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>Junior Robo Intern</h3>
+							<p>Jul 2015 - Jan 2017</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>K.J.S.I.E.I.T</h4>
+							<p>
+								<ul>
+									<li>
+										Collaborated with senior Robotic Team and university professors to teach and train for level-2 robotics
+									</li>
+									<li>
+										Built, test and upscale applications of DC Linear motors, Servo motors and Stepper motors for the robot
+									</li>
+									<li>
+										Control and synchronize the parameters of series DC motors with the stepper motor for optimum performance  
+									</li>
+								</ul>
+							</p>
+						</div>
+					</div>
+					<!-- /timeline-block -->
+				</div>
+				<!-- /timeline-wrap -->
+			</div>
+			<!-- /col-twelve -->
+		</div>
+		<!-- /resume-timeline -->
+
+		<section id="education">
+			<div class="row resume-timeline">
+				<div class="col-twelve resume-header">
+					<h2>Education</h2>
+				</div>
+				<!-- /resume-header -->
+	
+				<div class="col-twelve">
+					<div class="timeline-wrap">
+						<div class="timeline-block">
+							<div class="timeline-ico">
+								<i class="fa fa-briefcase"></i>
+							</div>
+	
+							<div class="timeline-header">
+								<h3>Master Degree</h3>
+								<p>Jan 2019 - Dec 2020</p>
+							</div>
+	
+							<div class="timeline-content">
+								<h4>Binghamton University, State University Of New York</h4>
+								<p>
+									Data Structures and Algorithms, Design Patterns, Intel Mobile Robotics, Wireless Sensor Networks, Programming Languages, Computer Organization and Architecture, Operating Systems, Science Of Cyber Security
+								</p>
+							</div>
+						</div>
+						<!-- /timeline-block -->
+	
+						<div class="timeline-block">
+							<div class="timeline-ico">
+								<i class="fa fa-briefcase"></i>
+							</div>
+	
+							<div class="timeline-header">
+								<h3>Bachelor Degree</h3>
+								<p>Jul 2013 - Jun 2018</p>
+							</div>
+	
+							<div class="timeline-content">
+								<h4>K.J Somaiya Institute Of Engineering and Information Technology</h4>
+								<p>
+									OOPS, Television Engineering, Analog and Digital Electronics, Signal and Systems, telecom Network Management, Satellite Communication
+								</p>
+							</div>
+						</div>
+						<!-- /timeline-block -->
+	
+					</div>
+					<!-- /timeline-wrap -->
+				</div>
+				<!-- /col-twelve -->
+			</div>
+			<!-- /resume-timeline -->
+		</section>
+		<!-- education section end -->
+	</section>
+	<!-- /features -->
+
+	<!-- Portfolio Section
+   ================================================== -->
+	<section id="portfolio" class="grey-section" style="padding-bottom: 1rem;">
+		<div class="row section-intro">
+			<div class="col-twelve">
+				<h5>Portfolio</h5>
+				<p></p>
+				<h1>Check Out Some of My Work</h1>
+
+				<p class="lead">
+					This Projects helped me to identify, fine-tune and optimize the massive restruction of my Skills. Don’t hesitate to ask if I can offer my assistance to you in the future
+				</p>
+			</div>
+		</div>
+		<!-- /section-intro-->
+
+		<!-- new section -->
+		<div class="portfolioPad" id="resume" style="padding-top: 0;" >
+			<div class="row resume-timeline">
+				<!-- /resume-header -->
+				
+				<div class="col-twelve">
+					<div class="timeline-wrap">
+						<div class="timeline-block">
+							<div class="timeline-ico">
+								<i class="fas fa-project-diagram"></i>
+							</div>
+	
+							<div class="timeline-header">
+								<h3>Real Time Simulation</h3>
+								<p></p>
+								<p style="text-align:center;"><img width="200" height="80" src="images/fire.jpg"  alt=""></p>
+								<p style="text-align: center;">
+									<a class="social-icon" href="https://www.youtube.com/watch?v=ff-kljlbljI&t=401s" style="text-align: center; padding: 0 1rem 0 1rem;"><i class="fas fa-video"></i></a>
+									<a class="social-icon" href="https://github.com/tkapadi1" style="text-align: center; padding: 0 1rem 0 1rem;"><i class="fab fa-github"></i></a>
+								</p>
+							</div>
+	
+							<div class="timeline-content">
+								<h4><a href="https://drive.google.com/file/d/1P2os6aSoMZxYhZY9gfD_Ms5oMe87AQ7J/view?usp=sharing">Detection and Prevention of Forest Fires</a></h4>
+								<p>
+									<ul>
+										<li>
+											Designed a system to wirelessly detect the presence of fires in forest areas using DTH11 and TPM36 sensors in C++, simulated that spread in C# and on the console in Java and predicted the spread using Lane Detection with 80% prediction accuracy
+										</li>
+										<li>
+											Augmented a real-world scenario that saved 1/3rd of burnt lands
+										</li>
+									</ul>
+								</p>
+							</div>
+						</div>
+						<!-- /timeline-block -->
+
+
+						<div class="timeline-block">
+							<div class="timeline-ico">
+								<i class="fas fa-project-diagram"></i>
+							</div>
+	
+							<div class="timeline-header">
+								<h3>FullStack Development</h3>
+								<p></p>
+								<p style="text-align:center;"><img width="200" height="80" src="images/comfy.jpg"  alt=""></p>
+								<p style="text-align: center;">
+									<a class="social-icon" href="https://github.com/tkapadi1/house-decor" style="text-align: center; padding: 0 1rem 0 1rem;"><i class="fas fa-video"></i></a>
+									<a class="social-icon" href="https://github.com/tkapadi1" style="text-align: center; padding: 0 1rem 0 1rem;"><i class="fab fa-github"></i></a>
+								</p>
+							</div>
+	
+							<div class="timeline-content">
+								<h4><a href="https://github.com/tkapadi1/house-decor">House Decor</a></h4>
+								<p>
+									<ul>
+										<li>
+											Developed a web application using JavaScript, CSS, and PHP to create a website based on local storage to reduce the burden on the database for storing every details of the user for simplified web testing technologies
+										</li>
+										<li>
+											This project estimates to save 1/2 of the storage burden on the database
+										</li>
+									</ul>
+								</p>
+							</div>
+						</div>
+						<!-- /timeline-block -->
+
+
+
+						<div class="timeline-block">
+							<div class="timeline-ico">
+								<i class="fas fa-project-diagram"></i>
+							</div>
+	
+							<div class="timeline-header">
+								<h3>UI | UX Development</h3>
+								<p></p>
+								<p style="text-align: center;"><img width="200" height="80" src="images/game.jpg"  alt=""></p>
+								<p style="text-align: center;">
+									<a class="social-icon" href="https://tkapadi1.github.io/simon-game/" style="text-align: center; padding: 0 1rem 0 1rem;"><i class="fas fa-video"></i></a>
+									<a class="social-icon" href="https://github.com/tkapadi1" style="text-align: center; padding: 0 1rem 0 1rem;"><i class="fab fa-github"></i></a>
+								</p>
+							</div>
+	
+							<div class="timeline-content">
+								<h4><a href="https://tkapadi1.github.io/simon-game/">Simon Game</a></h4>
+								<p>
+									<ul>
+										<li>
+											Designed, developed, and published web application that uses npm and node modules in JavaScript to provide a responsive user experience using basic web functionalities
+										</li>
+										<li>
+											This project comes with a responsive sound interactive play that can be useful for visual impaired users
+										</li>
+									</ul>
+								</p>
+							</div>
+						</div>
+						<!-- /timeline-block -->
+
+
+
+						<div class="timeline-block">
+							<div class="timeline-ico">
+								<i class="fas fa-project-diagram"></i>
+							</div>
+	
+							<div class="timeline-header">
+								<h3>Intel Mobile Robotics</h3>
+								<p></p>
+								<p style="text-align: center;">
+									<img width="200" height="80" src="images/chatbot.jpg" alt="chatbot image">
+								</p>
+								<p style="text-align: center;">
+									<a class="social-icon" href="https://youtu.be/o20SKCxgZB0" style="text-align: center; padding: 0 1rem 0 1rem;"><i class="fas fa-video"></i></a>
+									<a class="social-icon" href="https://github.com/tkapadi1" style="text-align: center; padding: 0 1rem 0 1rem;"><i class="fab fa-github"></i></a>
+								</p>
+							</div>
+	
+							<div class="timeline-content">
+								<h4><a href="https://youtu.be/o20SKCxgZB0">ChatBotusing Deep Learning and Bidirectional Data</a></h4>
+								<p>
+									<ul>
+										<li>
+											Generating .bse and vocab files for building the training model using B.E.R.T.(Bidirectional Encoder Representations from Transformers)
+										</li>
+										<li>
+											Training ChatBot using "Epochs" by High performance cloud computing and CUDA
+										</li>
+									</ul>
+								</p>
+							</div>
+						</div>
+						<!-- /timeline-block -->
+
+
+						<div class="timeline-block">
+							<div class="timeline-ico">
+								<i class="fas fa-project-diagram"></i>
+							</div>
+	
+							<div class="timeline-header">
+								<h3>Full Stack Development</h3>
+								<p></p>
+								<p><img width="200" height="80" src=""  alt=""></p>
+							</div>
+	
+							<div class="timeline-content">
+								<h4><a href="#">Keeper Note</a></h4>
+								<p>
+									<ul>
+										<li>
+											Develop, Design and Deploy a route-based web application using HTML5, CSS, MongoDB and Bootstrap v4 and REACT to make a parameterized website that allows to create and store different category of Detailed DATA from a user.
+										</li>
+										<li>
+											A to-go NoteBook that can be accessed anywhere around the world through internet connectivity
+										</li>
+									</ul>
+								</p>
+							</div>
+						</div>
+						<!-- /timeline-block -->
+					</div>
+					<!-- /timeline-wrap -->
+				</div>
+				<!-- /col-twelve -->
+			</div>
+		</div>
+		<!-- /portfolio-content -->
+		<div class="row section-intro">
+			<div class="col-twelve">
+				<h1>Complete Profile Can be Found on my GitHub Profile</h1>
+				<p class="lead">
+					<a href="https://github.com/tkapadi1"><i class="fab fa-github" style="font-size: 5rem; margin-top: 7rem;"></i></a>
+				</p>
+			</div>
+		</div>
+	</section>
+	<!-- /portfolio -->
+
+	
+	<!-- services Section
+   ================================================== -->
+	<section id="services">
+		<div class="overlay"></div>
+		
+		<div class="row section-intro">
+			<div class="col-twelve">
+				<h5>Services</h5>
+				<br>
+				<h1>What Can I Do For You?</h1>
+			</div>
+		</div>
+		<!-- /section-intro -->
+		<div class="section-intro skills">
+			<br>
+			<br>
+		  <div class="skill-row">
+			<img
+			  class="gif"
+			  src="https://media.giphy.com/media/HEPwfdu6T6svpPE1eN/giphy.gif"
+			  alt="Web-Developer-icon"
+			/>
+			<h5>Design what you want</h5>
+			<div class="para">
+				<p>
+				  I like to keep it simple. My goals are to focus on 
+				  typography, content and conveying the message that 
+				  you want to send
+				</p>
+			</div>
+		  </div>
+		  <br>
+		  <br>
+		  <div class="skill-row">
+			<img class="cricket" src="images/programing.png" alt="sport-icon" />
+			<h5>Develop what you need</h5>
+			<div class="para">
+				<p>
+				  I'm a developer, so I know how to create the 
+				  backened of the website to work according to 
+				  your need using latest technologies available
+				</p>
+			</div>
+		  </div>
+
+		
+		</div>
+		<!-- /services-content -->
+	</section>
+	<!-- /services -->
+
+	<!-- contact
+   ================================================== -->
+	<section id="contact">
+		<div class="row section-intro">
+			<div class="col-twelve">
+				<h5>Contact</h5>
+				<br>
+				<h1>I'd Love To Hear From You</h1>
+
+				<p class="lead">
+					If you have a project that you want to get started, think you need my help or just fancy saying Hey, then get in touch
+				</p>
+			</div>
+		</div>
+		<!-- /section-intro -->
+
+		
+		<div class="row contact-info">
+			<div class="col-four tab-full">
+				<div class="icon">
+					<i class="icon-pin"></i>
+				</div>
+
+				<h5>Where to find me</h5>
+
+				<p>
+					401, 72nd Street<br />
+					North Bergen, NJ<br />
+					07047 US
+				</p>
+			</div>
+
+			
+			<div class="col-four tab-full">
+				<div class="icon">
+					<i class="icon-phone"></i>
+				</div>
+				
+				<h5>Call Me At</h5>
+				
+				<p>
+					Mobile: +1(203)-550-5879<br />
+				</p>
+			</div>
+
+
+			<div class="col-four tab-full">
+				<div class="icon">
+					<i class="icon-mail"></i>
+				</div>
+	
+				<h5>Email Me At</h5>
+	
+				<p>
+					<a href="mailto:tkapadi1@binghamton.edu" style="color: gray;">tkapadi1@binghamton.edu</a>
+				</p>
+			</div>
+		</div>
+		<!-- /contact-info -->
+	</section>
+	<!-- /contact -->
+
+	<!-- footer
+   ================================================== -->
+
+	<footer>
+		<div class="row" style="margin-top: 3rem;">
+			<div class="col-six tab-full pull-right social">
+				<ul class="footer-social">
+					<li>
+						<a class="social-icon" href="https://www.linkedin.com/in/tkapadi1"><i
+								class="fab fa-linkedin-in"></i></a>
+					</li>
+					<li>
+						<a class="social-icon" href="https://github.com/tkapadi1"><i class="fab fa-github"></i></a>
+					</li>
+					<li>
+						<a class="social-icon" href="https://www.instagram.com/kapadia_tejas/"><i
+								class="fab fa-instagram"></i></a>
+					</li>
+					<li>
+						<a class="social-icon" href="https://www.facebook.com/T.S.Soneji/"><i class="fab fa-facebook-f"></i></a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col-six tab-full">
+				<div class="copyright">
+					<span>© Copyright Tejas 2021.</span>
+				</div>
+			</div>
+		</div>
+		<!-- /row -->
+	</footer>
+
+	<div id="preloader">
+		<div id="loader"></div>
+	</div>
+</body>
+
 </html>
